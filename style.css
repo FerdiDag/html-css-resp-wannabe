@@ -71,7 +71,7 @@ img {
     }
 
     #lezioni .row>.left, #lezioni .row>.right {
-        width: 100%;
+        width: 50%;
         float: left;
     }
 
@@ -79,7 +79,7 @@ img {
     #steps .row>.central,
     #steps .row>.right {
         float: left;
-        width: 100%;
+        width: 33%;
     }
 }
 
@@ -89,13 +89,11 @@ img {
     }
 
     #lezioni .row>.left, #lezioni .row>.right {
-        width: 100%;
+        width: 50%;
         float: left;
     }
 
-    #steps .row>.left,
-    #steps .row>.central,
-    #steps .row>.right {
+    #steps .row>.left #steps .row>.central #steps .row>.right {
         float: left;
         width: 100%;
     }
