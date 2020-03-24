@@ -89,11 +89,11 @@ img {
     }
 
     #lezioni .row>.left, #lezioni .row>.right {
-        width: 50%;
+        width: 100%;
         float: left;
     }
 
-    #steps .row>.left #steps .row>.central #steps .row>.right {
+    #steps .row>.left, #steps .row>.central, #steps .row>.right {
         float: left;
         width: 100%;
     }
